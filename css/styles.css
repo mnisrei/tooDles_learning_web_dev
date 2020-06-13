@@ -1,0 +1,147 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  color: #FFF;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Downloads Buttons Designs */
+.download-button {
+  margin: 6% 5% 5% 0;
+}
+
+/* Headings1 */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features Section Styles */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.feature-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #ff4c68
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-pic {
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+.carousel-item {
+  padding: 80px 10%;
+}
+
+/* Press Section Styles */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 7%;
+}
+
+.press-pic {
+  width: 15%;
+  margin: 15px 15px 0;
+}
+
+/* Pricing Section Styles */
+#pricing {
+  padding: 7% 10%;
+}
+
+.pricing-col {
+  padding: 3% 3%;
+  margin-top: 3%;
+}
+
+/* Call to Action Section Styles */
+/* Footer Section Styles */
+.footer-icons {
+  padding: 0 10px 20px;
+}
+
+/* Media Quesries */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
